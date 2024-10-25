@@ -1,0 +1,18 @@
+module.exports = {
+  rules: {
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "object-curly-spacing": ["error", "always"],
+    "object-curly-newline": ["error", { "consistent": true }],
+    "array-bracket-spacing": ["error", "always"],
+    "computed-property-spacing": ["error", "always"],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "comma-spacing": ["error", { "after": true }],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": false }],
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 1 }],
+    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    "rest-spread-spacing": ["error", "never"],
+    "indent": ["error", 2],
+    "camelcase": ["warn"],
+    "max-len": ["warn", 132]
+  }
+};
