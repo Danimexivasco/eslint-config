@@ -1,0 +1,1 @@
+This is my personal **ESLint** configuration, used to show some warns and also to format files with the existing errors.
