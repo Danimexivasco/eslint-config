@@ -13,10 +13,13 @@ npm install @danimexivasco/eslint-config --save-dev
 ```
 
 Or if you prefer, you can use it with **yarn**:
+
 ```bash
 yarn add @danimexivasco/eslint-config -D
 ```
+
 ## Example Configuration
+
 Here’s an example `.eslintrc.json` using this configuration:
 
 ```json
