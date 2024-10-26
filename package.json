@@ -1,11 +1,13 @@
 {
   "name": "@danimexivasco/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "author": "@danimexivasco",
   "license": "ISC",
   "description": "Eslint configuration for JS and TS projects",
