@@ -12,6 +12,6 @@
   "license": "ISC",
   "description": "Eslint configuration for JS and TS projects",
   "peerDependencies": {
-    "eslint": "^8.0.0",
+    "eslint": "^8.0.0"
   }
 }
