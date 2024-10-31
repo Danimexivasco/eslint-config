@@ -1,6 +1,6 @@
 {
   "name": "@danimexivasco/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,6 @@
   "license": "ISC",
   "description": "Eslint configuration for JS and TS projects",
   "peerDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^13.0.0"
+    "eslint": "^8.0.0"
   }
 }
