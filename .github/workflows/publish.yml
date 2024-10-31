@@ -10,20 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repo
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
           cache: 'npm'
 
-      # Install dependencies
       - name: Install dependencies
         run: npm install
 
@@ -35,7 +32,6 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || git commit -m "chore: commit untracked changes"
 
-      # Automatically bump the version
       - name: Bump version and publish
         id: publish
         env:
@@ -50,7 +46,6 @@ jobs:
           # Publish the package to npm
           npm publish
 
-      # Commit the updated package.json and push to the main branch
       - name: Push changes to GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
