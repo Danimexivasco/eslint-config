@@ -2,16 +2,23 @@
   "name": "@danimexivasco/eslint-config",
   "version": "1.0.11",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "eslint"
+    "eslint",
+    "config",
+    "typescript",
+    "react",
+    "stylistic"
   ],
   "author": "@danimexivasco",
   "license": "ISC",
-  "description": "Eslint configuration for JS and TS projects",
+  "description": "Eslint configuration for JS, TS and React projects",
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-import-newlines": "^1.4.0",
+    "@stylistic/eslint-plugin": "^0.1.0",
+    "@stylistic/eslint-plugin-js": "^0.1.0"
   }
 }
