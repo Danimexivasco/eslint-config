@@ -13,12 +13,14 @@
   "license": "ISC",
   "description": "Eslint configuration for JS, TS and React projects",
   "peerDependencies": {
-    "eslint": "^9",
-    "@typescript-eslint/parser": "^6.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "eslint-plugin-react": "^7.0.0",
+    "eslint": "^9.15.0",
+    "@eslint/js": "^9.18.0",
+    "@stylistic/eslint-plugin": "^2.11.0",
+    "@stylistic/eslint-plugin-js": "^2.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
     "eslint-plugin-import-newlines": "^1.4.0",
-    "@stylistic/eslint-plugin": "^0.1.0",
-    "@stylistic/eslint-plugin-js": "^0.1.0"
+    "eslint-plugin-react": "^7.37.2",
+    "typescript-eslint": "^8.15.0"
   }
 }
