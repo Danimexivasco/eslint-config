@@ -1,14 +1,14 @@
 import eslint from "@eslint/js";
 import stylistic from '@stylistic/eslint-plugin';
 import stylisticJs from "@stylistic/eslint-plugin-js";
+import tsEslint from "typescript-eslint";
 import tsParser from "@typescript-eslint/parser";
-import tsEslint from "@typescript-eslint/eslint-plugin";
 import pluginReact from "eslint-plugin-react";
 import importNewlines from "eslint-plugin-import-newlines";
 
 export default [
   eslint.configs.recommended,
-  tsEslint.configs.recommended,
+  ...tsEslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   pluginReact.configs.flat["jsx-runtime"],
   
@@ -33,7 +33,7 @@ export default [
     plugins: {
       "@stylistic": stylistic,
       "@stylistic/js": stylisticJs,
-      "@typescript-eslint": tsEslint,
+      "typescript-eslint": tsEslint,
       "@react": pluginReact,
       "import-newlines": importNewlines,
     },
