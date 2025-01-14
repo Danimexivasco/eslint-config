@@ -36,5 +36,5 @@ export default [
     ...eslintConfig
 ];
 ```
-> [!WARNING]
-> **If you are using v1.0.12 or above:** please use eslint flat config.
+---
+> :warning: **If you are using v1.0.12 or above:** please use eslint flat config.
