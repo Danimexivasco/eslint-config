@@ -8,7 +8,7 @@ import importNewlines from "eslint-plugin-import-newlines";
 
 export default [
   eslint.configs.recommended,
-  ...tsEslint.configs.recommended,
+  tsEslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   pluginReact.configs.flat["jsx-runtime"],
   
