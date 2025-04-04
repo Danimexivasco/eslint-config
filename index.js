@@ -40,7 +40,7 @@ export default [
     rules: {
       // eslint
       "camelcase": "warn",
-      "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+      "no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
       "no-undef": "off",
 
       // stylistic js/ts
@@ -61,11 +61,11 @@ export default [
       "@stylistic/js/no-multi-spaces": [2],
       "@stylistic/js/no-trailing-spaces": ["error", { skipBlankLines: false, ignoreComments: false }],
       "@stylistic/js/rest-spread-spacing": ["error", "never"],
-      "@stylistic/js/max-len": ["warn", { "code": 80 }],
       "@stylistic/js/key-spacing": ["error", { align: "value" }],
 
       "@stylistic/type-annotation-spacing": [2],
       "@stylistic/semi": ["error", "always"],
+      "@stylistic/space-infix-ops": ["error"],
 
       // stylistic React
       "@stylistic/jsx-max-props-per-line": [
